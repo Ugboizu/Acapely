@@ -1,0 +1,220 @@
+*{
+    margin: auto;
+}
+
+
+nav{
+    background-color: black;
+}
+
+.nav-item:hover{
+    color: rgb(158, 158, 121);
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#home{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/homepage.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#home1 p{
+    font-size: 2 5px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+#home1 h1{
+    padding-top: 170px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color: white;
+}
+
+#home button{  
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+
+#home button:hover{
+    background-color: rgb(224, 2, 2);
+    border: 1px solid rgb(224, 2, 2);
+}
+
+
+#about{ 
+    display: flex;
+}
+
+#about p{
+    margin-top: 100px;
+    padding-left: 250px;
+    font-size: 20px;
+}
+
+#features{
+    background-color: beige;
+}
+
+.feature-head{
+    text-align: center;
+}
+
+.feature-flex{
+   display: flex;
+   justify-content: center;
+}
+.feature-flex img{
+    width: 100%; 
+    height: 50vh;
+}
+
+.cardd{
+    width: 500px;
+    box-shadow: 5px 5px 6px black;
+    padding: 10px;
+    margin: 30px;
+    border-top: 2px solid black;
+    min-height: 250px;
+    background-color: gray;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.cardd:hover{
+    background-color: rgb(7, 7, 7);
+    color: white;
+}
+
+/* .pp{
+   background: rgb(36, 1, 1);
+   color: white;
+   top: 0;
+   left:  0;
+   right: 0;
+   bottom: 0;
+   opacity: 0;
+   position: absolute;
+   padding-top: 60px;
+   transition: all 0.2 ease-in-out;
+   font-size: 17px;
+   font-family: cursive;
+   font-style: italic;
+} */
+
+/* .pp:hover{
+    opacity: 1.8;
+    transform: scale(0.9);
+} */
+
+/* .card:hover{
+    display: block;
+} */
+
+
+
+/* #features{
+    background-color: bisque;
+}
+
+#features h1,p{
+    text-align: center;
+}
+
+#features1 div{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    
+} */
+
+/* #features1 div{
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid beige;
+    box-shadow: rgb(175, 159, 159);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 200px;
+} */
+
+#contact{
+    height: 80vh;
+}
+
+#contact div div {
+    text-align: center;
+}
+
+#contacticon{
+    font-weight: bold;
+}
+
+.download{
+    background-color: rgb(192, 176, 131);
+    color: rgb(7, 7, 7);
+    height: 90vh;
+}
+
+.download p{
+    margin-top: 100px;
+    padding-left: 250px;
+    font-size: 20px;
+}
+
+.download h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+.download_images{
+    margin-left:130vh;
+}
+
+.download input{
+    margin-left: 450px;
+    width: 30%;
+    border: 1px solid black;
+    
+}
+
+.download button{
+    border: 1px solid red;
+    color: white;
+    font-size: 16px;
+    background-color: red;
+    margin-left: -82  px;
+}
+
+.download button:hover {
+    background-color: rgb(224, 2, 2);
+    border: 1px solid rgb(224, 2, 2);
+}
+
+
+footer{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    text-align: center;
+    height: 15vh;
+}
+
+footer p i{
+    padding-top: 7vh;
+}
